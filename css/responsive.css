@@ -1,0 +1,138 @@
+/**************************************************
+Tablet Screens
+***************************************************/
+
+@media screen and (min-width: 768px) {
+
+p {
+  font-size: 16px;
+  max-width: 75%;
+  margin-left: 12.5%;
+}
+
+main-nav {
+  font-size: 12px;
+}
+
+main-nav li {
+  display: inline-block;
+  background: none;
+  padding: 5px;
+}
+
+.profile {
+  float: right;
+  max-width: 35%;
+  margin-right: 2%;
+}
+
+.intro {
+  float: left;
+  max-width: 50%;
+  margin: 50px 4%;
+  font-size: 1.2em;
+}
+
+.pages {
+  width: 49%;
+  margin: .5%;
+  margin-top: 15px;
+  margin-right: -10px;
+  float: left;
+}
+
+.pages img {
+  width: 100%;
+}
+
+.contact-box p {
+  max-width: 70%;
+  font-size: 18px;
+  text-align: center;
+  margin-left: 15%;
+}
+
+.contact-box ul {
+  margin-top: 30px;
+  font-size: 18px;
+}
+
+footer {
+  font-size: 15px;
+}
+.footer {
+  display: inline-block;
+  float: left;
+  font-size: 10px;
+  font-weight: bolder;
+}
+
+.footer-nav {
+  display: inline-block;
+  font-size: 10px;
+  margin-left: 5%;
+}
+
+.top {
+  display: none;
+}
+
+section.box {
+  height: 320px;
+}
+
+}
+
+/**************************************************
+Desktop Screens
+***************************************************/
+
+@media screen and (min-width: 1024px) {
+  .pages {
+    width: 28%;
+    margin: 2%;
+    float: left;
+  }
+
+  h1 {
+    float: left;
+    margin-left: 5%;
+    padding-left: 100px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  p {
+    font-size: 16px;
+    max-width: 80%;
+    margin-left: 10%;
+  }
+
+  main-nav {
+    font-size: 12px;
+  }
+
+  main-nav ul {
+   list-style: none;
+   margin-right: -400px;
+   padding: 0;
+  }
+
+  .footer {
+    display: inline-block;
+    float: left;
+    padding-right: 500px;
+  }
+
+  .intro {
+    font-size: 1.5em;
+    padding-top: 50px;
+  }
+
+section.box {
+  height: 320px;
+}
+
+}

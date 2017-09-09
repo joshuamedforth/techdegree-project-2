@@ -1,0 +1,141 @@
+* {
+  text-align: center;
+}
+
+/*****************Basic Styling***************/
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: white;
+  font-size: 18px;
+}
+
+.box {
+  margin: -10px;
+  padding: 20px 0px;
+  background-color: #f7f5f0;
+  min-width: 100%;
+  font-size: 15px;
+}
+
+.contact-box {
+  margin: -10px;
+  padding: 20px 0;
+  background-color: #f7f5f0;
+  min-width: 100%;
+  font-size: 15px;
+  clear: both;
+}
+
+#wrapper {
+  margin: 0;
+  margin-left: 1%;
+  padding-bottom: 20px;
+  min-width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+ text-decoration: none;
+ color: black;
+}
+
+img {
+ max-width: 95%;
+ margin: 0;
+}
+
+p {
+  margin: 10px;
+  font-size: 15px;
+}
+
+.profile {
+  margin-top: 50px;
+  max-width: 70%;
+}
+
+h1 {
+ font-family: 'Changa One', sans-serif;
+ margin: 15px 0;
+ font-size: 28px;
+ font-weight: bold;
+ line-height: 0.8em;
+}
+
+h2 {
+  font-size: 15px;
+  text-align: center;
+  padding-top: 20px;
+  clear: both;
+}
+
+img {
+  margin: 10px auto;
+}
+
+/***************** Navigation styles *****************/
+
+ main.nav {
+  text-align: center;
+  padding: 10px;
+ }
+
+main-nav ul {
+ list-style: none;
+ margin: 0 10px;
+ padding: 0;
+}
+
+main-nav li {
+ display: block;
+ margin: 5px;
+ padding: 10px;
+ background-color: white;
+}
+
+main-nav a {
+ font-weight: 800;
+ padding: 15px 10px;
+}
+
+footer {
+  font-size: 10px;
+  font-weight: bolder;
+}
+
+.footer {
+  display: inline-block;
+  margin-left: -20px;
+  padding-right: 40%;
+  clear: both;
+}
+
+.footer-nav {
+  display: none;
+}
+
+.top {
+  display: inline-block;
+}
+
+/************Contact Info******************/
+
+.contact-info {
+  list-style: none;
+  padding: 10px;
+  margin: 10px;
+  font-size: 0.9em;
+}
+
+.contact-info a {
+  display: block;
+  min-height: 20px;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  padding: 0 0 0 30px;
+  margin: 0 0 10px;
+}
