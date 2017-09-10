@@ -4,20 +4,14 @@ Tablet Screens
 
 @media screen and (min-width: 768px) {
 
+  /**********************************************
+  Basic Styling on Tablet
+  ***********************************************/
+
 p {
   font-size: 16px;
   max-width: 75%;
   margin-left: 12.5%;
-}
-
-main-nav {
-  font-size: 12px;
-}
-
-main-nav li {
-  display: inline-block;
-  background: none;
-  padding: 5px;
 }
 
 .profile {
@@ -45,6 +39,31 @@ main-nav li {
   width: 100%;
 }
 
+.top {
+  display: none;
+}
+
+section.box {
+  height: 320px;
+}
+
+/**********************************************
+Nav Styles
+***********************************************/
+
+main-nav {
+  font-size: 12px;
+}
+
+main-nav li {
+  display: inline-block;
+  background: none;
+  padding: 5px;
+}
+
+/**********************************************
+Contact box Styles
+***********************************************/
 .contact-box p {
   max-width: 70%;
   font-size: 18px;
@@ -56,6 +75,10 @@ main-nav li {
   margin-top: 30px;
   font-size: 18px;
 }
+
+/**********************************************
+Footer Styles
+***********************************************/
 
 footer {
   font-size: 15px;
@@ -73,19 +96,11 @@ footer {
   margin-left: 5%;
 }
 
-.top {
-  display: none;
 }
 
-section.box {
-  height: 320px;
-}
-
-}
-
-/**************************************************
+/********************************************************************************************************************************
 Desktop Screens
-***************************************************/
+********************************************************************************************************************************/
 
 @media screen and (min-width: 1024px) {
   .pages {
@@ -110,16 +125,6 @@ Desktop Screens
     margin-left: 10%;
   }
 
-  main-nav {
-    font-size: 12px;
-  }
-
-  main-nav ul {
-   list-style: none;
-   margin-right: -400px;
-   padding: 0;
-  }
-
   .footer {
     display: inline-block;
     float: left;
@@ -133,6 +138,19 @@ Desktop Screens
 
 section.box {
   height: 320px;
+}
+
+/**********************************************
+Nav Styles
+***********************************************/
+main-nav {
+  font-size: 12px;
+}
+
+main-nav ul {
+ list-style: none;
+ margin-right: -400px;
+ padding: 0;
 }
 
 }
